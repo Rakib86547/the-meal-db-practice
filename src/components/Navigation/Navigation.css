@@ -1,0 +1,25 @@
+.nav-menu {
+    margin-top: -56px;
+    text-align: right;
+}
+.nav-menu a {
+    margin: 0 10px;
+    font-weight: 700;
+}
+.active{
+    color: orange;
+}
+@media screen and (max-width: 768px) {
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
+   .nav-menu{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: -10px;
+   }
+   .nav-menu a{
+        padding: 10px 0px;
+   }
+}
